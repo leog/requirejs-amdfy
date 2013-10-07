@@ -1,0 +1,27 @@
+{
+  "name": "requirejs-amdfy",
+  "version": "0.0.1",
+  "authors": [
+    "Leo Giovanetti <leorou@gmail.com>"
+  ],
+  "description": "Wrap define() before loading non-AMD scripts supporting dependencies.",
+  "main": "amdfy.js",
+  "keywords": [
+    "amd",
+    "requirejs",
+    "plugin",
+    "amdfy"
+  ],
+  "license": "MIT",
+  "homepage": "http://github.com/leog/requirejs-amdfy",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs-text": "~2.0.10"
+  }
+}
