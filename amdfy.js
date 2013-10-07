@@ -36,7 +36,7 @@
                 // Separating file from dependencies
                 var base = name.match(mainRegex);
 				// Apply AMDfy to first declared file (need it as text)
-				var mainFile = [base[0]].run(function(dep){return "./lib/bower_components/requirejs-text/text!"+req.toUrl(dep);});
+				var mainFile = [base[0]].run(function(dep){return "../requirejs-text/text!"+req.toUrl(dep);});
 				// Extracting dependencies
 				var allDeps = base[1].match(allDepsRegex);
 				// Extracting dependencies names
